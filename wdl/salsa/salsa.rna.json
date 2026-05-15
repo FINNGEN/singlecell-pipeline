@@ -1,0 +1,14 @@
+{
+  "salsa.obs": "gs://expansion_areas/multiome/batch1_5/h5ad/integrated_gex_batch1_5.fgid.sct.counts.obs.tsv.gz",
+  "salsa.reference": "gs://regev-lab-refinery/resources/cellranger/refdata-gex-GRCh38-2020-A.star.tar.gz",
+  "salsa.chrom_info": "gs://expansion_areas/multiome/metadata/reference/hg38_chromInfo.txt.gz",
+  "salsa.vcf_pattern": "gs://expansion_areas/multiome/batch1_5/genotype/phased/per_sample/{FINNGENID}.vcf.gz",
+  "salsa.bam_pattern": "gs://expansion_areas/fc-df34f770-7c85-4640-bd96-1450dfc9394c/finngen_objects/gex/batch1_5/per_sample/bam/{FFID}.bam",
+  "salsa.counts_pattern": "gs://expansion_areas/multiome/batch1_5/gex/counts/{FINNGENID}.counts.single_cell.table.gz",
+  "salsa.reference_dir": "refdata-gex-GRCh38-2020-A",
+  "salsa.debug": false,
+  "salsa.overwrite": false,
+  "salsa.docker_salsa": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/salsa:c60d4ca",
+  "salsa.docker_suite": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/singlecell-suite:1.64",
+  "salsa.zones": "europe-west1-b europe-west1-c europe-west1-d"
+}

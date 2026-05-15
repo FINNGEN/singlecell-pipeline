@@ -1,0 +1,10 @@
+{
+  "munge_mesc.probe_info": "gs://expansion_areas/multiome/metadata/pQTL/Olink_pQTL_2023_10_11/Olink_pQTL_2023_10_11.probe_info.txt",
+  "munge_mesc.sumstats_pattern": "gs://finngen-production-library-green/omics/proteomics/release_2023_10_11/data/Olink/pQTL/{PHENO}.txt.gz",
+  "munge_mesc.rsid_annot": "gs://expansion_areas/multiome/metadata/annotations/R12_annotated_variants_v1.rsid.gz",
+  "munge_mesc.out_prefix": "Olink_pQTL_2023_10_11",
+  "munge_mesc.debug": false,
+  "munge_mesc.docker_suite": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/singlecell-suite:1.87",
+  "munge_mesc.docker_ldsc": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/ldsc-suite:0.2",
+  "munge_mesc.zones": "europe-west1-b europe-west1-c europe-west1-d"
+}

@@ -1,0 +1,12 @@
+{
+  "compute_lisi.h5ad": "gs://expansion_areas/multiome/batch1_5/h5ad/integrated_gex_batch1_5.fgid.qc.umap.h5ad",
+  "compute_lisi.embedding_key": "X_pca",
+  "compute_lisi.batch_cols": ["pool_name", "Batch", "flow_cell_id", "sequencer"],
+  "compute_lisi.celltype_col": "predicted.celltype.l1",
+  "compute_lisi.label": "RNA",
+  "compute_lisi.perplexity": 30,
+  "compute_lisi.subsample": 500000,
+  "compute_lisi.seeds": [42, 43, 44, 45, 46],
+  "compute_lisi.docker_suite": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/singlecell-suite:2.01",
+  "compute_lisi.zones": "europe-west1-b europe-west1-c europe-west1-d"
+}

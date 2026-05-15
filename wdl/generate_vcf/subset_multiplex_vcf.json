@@ -1,0 +1,31 @@
+{
+  "subset_multiplex_vcf.chromosomes": [
+    "chr1",
+    "chr2",
+    "chr3",
+    "chr4",
+    "chr5",
+    "chr6",
+    "chr7",
+    "chr8",
+    "chr9",
+    "chr10",
+    "chr11",
+    "chr12",
+    "chr13",
+    "chr14",
+    "chr15",
+    "chr16",
+    "chr17",
+    "chr18",
+    "chr19",
+    "chr20",
+    "chr21",
+    "chr22"
+  ],
+  "subset_multiplex_vcf.lexsorted_vcf": "gs://expansion_areas/multiome/batch1_5/genotype/FG_EA5_batch1_5.lexsorted.vcf.gz",
+  "subset_multiplex_vcf.mapping": "gs://expansion_areas/multiome/metadata/mapping/FG_EA5_batch1_5_samples.txt",
+  "subset_multiplex_vcf.input_sample_sheet": "gs://expansion_areas/multiome/batch1_5/demultiplex/samplesheets/multiplexed_samples.csv",
+  "subset_multiplex_vcf.docker": "eu.gcr.io/finngen-refinery-dev/convert_vcf:r12.1",
+  "subset_multiplex_vcf.zones": "europe-west1-b europe-west1-c europe-west1-d"
+}

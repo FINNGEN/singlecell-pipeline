@@ -1,0 +1,12 @@
+{
+  "smr.phenotype_summary": "gs://expansion_areas/multiome/metadata/phenotypes/FG_R12_endpoints.KANTA.summary.txt",
+  "smr.cell_type_list": "gs://expansion_areas/multiome/metadata/cell_types/predicted.celltype.l1-2.qtl.egenes_sig.txt",
+  "smr.bfile": "gs://expansion_areas/multiome/batch1_5/genotype/FG_EA5_batch1_5",
+  "smr.beqtl_pattern": "gs://expansion_areas/multiome/batch1_5/smr/beqtl/integrated_gex_batch1_5.fgid.qc.{CELL_TYPE}.mean.inv.SAIGE",
+  "smr.ma_sumstats_pattern": "gs://expansion_areas/multiome/batch1_5/smr/r12_sumstats/{PHENO}.ma.gz",
+  "smr.out_prefix": "integrated_gex_batch1_5.fgid.qc",
+  "smr.chunk_size": 5,
+  "smr.debug": false,
+  "smr.docker_suite": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/singlecell-suite:1.87",
+  "smr.zones": "europe-west1-b europe-west1-c europe-west1-d"
+}

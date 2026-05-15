@@ -1,0 +1,8 @@
+.DS_Store
+local/
+wdl/**/LOCAL.md
+
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata

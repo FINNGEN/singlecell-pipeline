@@ -1,0 +1,41 @@
+{
+  "saige_qtl_step1.out_dir": "gs://expansion_areas/multiome/batch1_5/saige_qtl",
+  "saige_qtl_step1.gex_features": "gs://expansion_areas/multiome/metadata/gene_model/features.gex.tsv.gz",
+  "saige_qtl_step1.obs": "gs://expansion_areas/multiome/batch1_5/h5ad/integrated_gex_batch1_5.fgid.qc.obs.tsv.gz",
+  "saige_qtl_step1.expression_bed_pattern": "gs://expansion_areas/multiome/batch1_5/pseudobulk/integrated_gex_batch1_5.fgid.qc.{CELL_TYPE}.mean.inv.bed.gz",
+  "saige_qtl_step1.nonzero_prop_pattern": "gs://expansion_areas/multiome/batch1_5/pseudobulk/integrated_gex_batch1_5.fgid.qc.{CELL_TYPE}.nonzero_prop.txt",
+  "saige_qtl_step1.h5ad_pattern": "gs://expansion_areas/multiome/batch1_5/h5ad/per_chrom/integrated_gex_batch1_5.fgid.qc.{CHROM}.h5ad",
+  "saige_qtl_step1.covar_pattern": "gs://expansion_areas/multiome/batch1_5/peer_factor/integrated_gex_batch1_5.fgid.qc.{CELL_TYPE}.mean.inv.peer_factors_covariates.tsv.gz",
+  "saige_qtl_step1.barcode_pattern": "gs://expansion_areas/multiome/batch1_5/barcode/integrated_gex_batch1_5.fgid.qc.{CELL_TYPE}.barcode.txt.gz",
+  "saige_qtl_step1.cell_type_list": "gs://fg-temp-30day/predicted.celltype.l2.04",
+  "saige_qtl_step1.grm_bfile": "gs://expansion_areas/multiome/batch1_5/grm/FG_EA5_batch1_5_GRM_LD_0.2",
+  "saige_qtl_step1.obs_sample_id": "FINNGENID",
+  "saige_qtl_step1.sample_id": "IID",
+  "saige_qtl_step1.covariates": [
+    "SEX_IMPUTED",
+    "AGE_AT_DONATION",
+    "PC1",
+    "PC2",
+    "PC3",
+    "PC4",
+    "log_total_counts_wo_highly_expressed",
+    "pct_counts_mito"
+  ],
+  "saige_qtl_step1.sample_covariates": [
+    "SEX_IMPUTED",
+    "AGE_AT_DONATION",
+    "PC1",
+    "PC2",
+    "PC3",
+    "PC4"
+  ],
+  "saige_qtl_step1.num_genes_per_chunk": 50,
+  "saige_qtl_step1.overwrite": false,
+  "saige_qtl_step1.filter_genes": false,
+  "saige_qtl_step1.step1_null.isCovariateOffset": false,
+  "saige_qtl_step1.step1_null.tol": 0.0001,
+  "saige_qtl_step1.debug": false,
+  "saige_qtl_step1.docker_saige": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/saige-qtl:0.3.0-mk7",
+  "saige_qtl_step1.docker_suite": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/singlecell-suite:1.84",
+  "saige_qtl_step1.zones": "europe-west1-b europe-west1-c europe-west1-d"
+}

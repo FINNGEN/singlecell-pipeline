@@ -1,0 +1,11 @@
+{
+  "snapatac2_umap.obs": "gs://expansion_areas/multiome/batch1_5/h5ad/per_chrom/integrated_atac_batch1_5.chr1.fgid.obs.tsv.gz",
+  "snapatac2_umap.h5ad_pattern": "gs://expansion_areas/multiome/batch1_5/atac/post_qc_h5ad_csr/{FINNGENID}.post_qc.h5ad",
+  "snapatac2_umap.out_prefix": "integrated_atac_batch1_5.fgid",
+  "snapatac2_umap.cell_type_list": "gs://expansion_areas/multiome/metadata/cell_types/predicted.celltype.l1.PBMC.txt",
+  "snapatac2_umap.all_cell_annot": "predicted.celltype.l1.PBMC",
+  "snapatac2_umap.debug": false,
+  "snapatac2_umap.docker_snapatac2": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/snapatac2:2.8.0",
+  "snapatac2_umap.docker_suite": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/singlecell-suite:2.00",
+  "snapatac2_umap.zones": "europe-west1-b europe-west1-c europe-west1-d"
+}

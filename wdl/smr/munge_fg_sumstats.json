@@ -1,0 +1,6 @@
+{
+  "munge_fg_sumstats.phenotype_summary": "gs://expansion_areas/multiome/metadata/phenotypes/FG_R12_endpoints.KANTA.summary.txt",
+  "munge_fg_sumstats.debug": false,
+  "munge_fg_sumstats.docker_suite": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/singlecell-suite:1.87",
+  "munge_fg_sumstats.zones": "europe-west1-b europe-west1-c europe-west1-d"
+}

@@ -1,0 +1,10 @@
+{
+  "munge_tensorqtl.gex_features": "gs://expansion_areas/multiome/metadata/gene_model/features.gex.tsv.gz",
+  "munge_tensorqtl.tss_bed": "gs://expansion_areas/multiome/metadata/gene_model/refdata-gex-GRCh38-2020-A.genes.tss.bed",
+  "munge_tensorqtl.cell_type_list": "gs://expansion_areas/multiome/metadata/cell_types/predicted.celltype.l1-2.qtl.txt",
+  "munge_tensorqtl.cis_pattern": "gs://expansion_areas/multiome/batch1_5/atac_results/cis/integrated_atac_batch1_5.fgid.{CELL_TYPE}.sum.inv.cis_qtl_acat.tsv.gz",
+  "munge_tensorqtl.cis_nominal_pattern": "gs://expansion_areas/multiome/batch1_5/atac_results/cis_nominal/integrated_atac_batch1_5.fgid.{CELL_TYPE}.sum.inv.cis_qtl_pairs.tsv.gz",
+  "munge_tensorqtl.debug": false,
+  "munge_tensorqtl.docker_suite": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/singlecell-suite:1.87",
+  "munge_tensorqtl.zones": "europe-west1-b europe-west1-c europe-west1-d"
+}

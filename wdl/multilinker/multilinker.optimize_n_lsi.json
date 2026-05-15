@@ -1,0 +1,21 @@
+{
+  "multilinker.chromosome": "chr2",
+  "multilinker.cell_type_list": "gs://expansion_areas/multiome/metadata/cell_types/predicted.celltype.l1.B.txt",
+  "multilinker.gex_h5ad": "gs://expansion_areas/multiome/batch1_5/h5ad/integrated_gex_batch1_5.fgid.qc.h5ad",
+  "multilinker.atac_h5ad_pattern": "gs://expansion_areas/multiome/batch1_5/h5ad/per_chrom/integrated_atac_batch1_5.{CHR}.fgid.h5ad",
+  "multilinker.gex_nonzero_prop_pattern": "gs://expansion_areas/multiome/batch1_5/pseudobulk/integrated_gex_batch1_5.fgid.qc.{CELL_TYPE}.nonzero_prop.txt",
+  "multilinker.covar_pattern": "gs://expansion_areas/multiome/batch1_5/peer_factor/integrated_gex_batch1_5.fgid.qc.{CELL_TYPE}.mean.inv.peer_factors_covariates.tsv.gz",
+  "multilinker.atac_lsi_pattern": "gs://expansion_areas/multiome/batch1_5/atac/lsi/integrated_atac_batch1_5.fgid.{CELL_TYPE}.lsi.tsv.gz",
+  "multilinker.covariates": [
+    "log_total_counts_wo_highly_expressed_atac",
+    "pct_counts_mito"
+  ],
+  "multilinker.offset": "log_total_counts_wo_highly_expressed",
+  "multilinker.all_cell_annot": "predicted.celltype.l1.PBMC",
+  "multilinker.obs_sample_id": "FINNGENID",  
+  "multilinker.chunk_size": 10,
+  "multilinker.nonzero_prop_threshold": 0.01,
+  "multilinker.debug": false,
+  "multilinker.docker_suite": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/singlecell-suite:2.00",
+  "multilinker.zones": "europe-west1-b europe-west1-c europe-west1-d"
+}

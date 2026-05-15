@@ -1,0 +1,5 @@
+{
+  "scanpy_umap.h5ad": "gs://expansion_areas/multiome/batch1_5/h5ad/integrated_gex_batch1_5.fgid.qc.h5ad",
+  "scanpy_umap.docker_suite": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/singlecell-suite:1.87",
+  "scanpy_umap.zones": "europe-west1-b europe-west1-c europe-west1-d"
+}

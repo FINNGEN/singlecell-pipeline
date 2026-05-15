@@ -1,0 +1,14 @@
+{
+  "sldsc.cell_type_list": "gs://expansion_areas/multiome/metadata/cell_types/predicted.celltype.l1.PBMC.txt",
+  "sldsc.phenotype_summary": "gs://expansion_areas/multiome/metadata/phenotypes/FG_R12_endpoints.KANTA.summary.txt",
+  "sldsc.ldscore_pattern": "gs://expansion_areas/multiome/misc/ldsc/ldscore_1000G_GRCh38/FinnGen_CA_Link.{CELL_TYPE}.tar.gz",
+  "sldsc.baselineLD": "gs://expansion_areas/multiome/misc/ldsc/ldscore_1000G_GRCh38/baselineLD_v2.2.tgz",
+  "sldsc.weights": "gs://expansion_areas/multiome/misc/ldsc/ldscore_1000G_GRCh38/weights.tgz",
+  "sldsc.frqfile": "gs://expansion_areas/multiome/misc/ldsc/plink_files_GRCh38/1000G.EUR.hg38.frq.tar.gz",
+  "sldsc.out_prefix": "FinnGen_CA_Link",
+  "sldsc.chunk_size": 25,
+  "sldsc.debug": false,
+  "sldsc.docker_suite": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/singlecell-suite:2.01",
+  "sldsc.docker_ldsc": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/ldsc-suite:0.9",
+  "sldsc.zones": "europe-west1-b europe-west1-c europe-west1-d"
+}

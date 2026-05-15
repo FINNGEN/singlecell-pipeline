@@ -1,0 +1,11 @@
+{
+  "mesc.cell_type_list": "gs://expansion_areas/multiome/metadata/cell_types/predicted.celltype.l1-2.qtl.txt",
+  "mesc.phenotype_summary": "gs://expansion_areas/multiome/metadata/phenotypes/FG_R12_endpoints.KANTA.summary.txt",
+  "mesc.expscore_pattern": "gs://expansion_areas/multiome/batch1_5/mesc/meta/expscore/caQTL_pQTL.{CELL_TYPE}.mesc.tar.gz",
+  "mesc.out_prefix": "caQTL_pQTL.mesc",
+  "mesc.chunk_size": 25,
+  "mesc.debug": false,
+  "mesc.docker_suite": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/singlecell-suite:1.87",
+  "mesc.docker_ldsc": "europe-docker.pkg.dev/finngen-refinery-dev/eu.gcr.io/ldsc-suite:0.2",
+  "mesc.zones": "europe-west1-b europe-west1-c europe-west1-d"
+}
