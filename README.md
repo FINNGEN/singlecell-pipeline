@@ -2,7 +2,7 @@
 
 Single-nucleus multiome (snRNA-seq + snATAC-seq) processing and QTL discovery pipeline used in:
 
-Kanai, M. et al. [Population-scale multiome immune cell atlas reveals complex disease drivers](https://doi.org/10.1101/2025.11.25.25340489). medRxiv (2025)
+Kanai, M. et al. [Population-scale immune multiome atlas reveals regulatory disease mechanisms](https://doi.org/10.1038/s41586-026-11078-2). _Nature_ **659**, 729–743 (2026)
 
 Figure generation code can be found at <https://github.com/mkanai/finngen-multiome-flagship>.
 
